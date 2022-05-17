@@ -1,0 +1,70 @@
+.main{
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    opacity: 0.9;
+    padding: 5%;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body{
+    background: url('https://www.orfonline.org/wp-content/uploads/2022/05/Nepal_election-1280x720.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    margin: 5%;
+    text-align: center;
+    border-collapse: collapse;
+    min-width: 80%;
+}
+
+td{
+    padding: 6%;
+    min-width: 50px;
+}
+
+.button {
+    background-color: #696e69;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button:hover{
+    background-color: #3c3e3e;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .source{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: smaller;
+  }
+
+  .disclaimer{
+    display: none;
+  }
